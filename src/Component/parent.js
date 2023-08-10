@@ -82,6 +82,7 @@ const Parent = () => {
         handleNameChange={handleNameChange}
       /> */}
 
+      {/* child three is not using memo so it re-render everytime parent re-render */}
       <Child3 />
     </div>
   );
